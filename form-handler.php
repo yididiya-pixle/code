@@ -20,10 +20,10 @@ $headers = "From: $email_from \r\n";
 $headers .= "Replay-To: $visitor_email \r\n";
 
 
-mail($to,$email_subject,$email_body,$headers);
+mail($to,$email_subject, $email_body, $header);
 
 
-header("Location: contact.html");
+header("Location: Contact us.html");
 
 
 
