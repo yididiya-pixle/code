@@ -507,8 +507,8 @@ h3{
 .color-btn{
     display: inline-block;
     text-decoration: none;
-    color: #fff;
-    border: 1px solid #fff;
+    color: #222;
+    border: 1px solid #222;
     padding: 12px 34px;
     font-size: 13px;
     background: transparent;
@@ -520,7 +520,8 @@ h3{
     background: #FFA500;
     transition: 1s;
 }
-.our-course{
+
+.bt-course{
     width: 80%;
     margin: auto;
     text-align: center;
@@ -539,8 +540,8 @@ p{
     padding: 10px;
 }
 
-.row{
-    margin-top: 5%;
+.rol{
+    margin-top: -7%;
     display: flex;
     justify-content: space-between;
 }
@@ -548,7 +549,7 @@ p{
     flex-basis: 31%;
     background: #fff3f3;
     border-radius: 10px;
-    margin-bottom: -5%;
+    margin-bottom: 5%;
     padding: 20px 12px;
     box-sizing: border-box;
     transition: 0.5s;
@@ -559,5 +560,10 @@ h3{
     margin: 10px 0;
 }
 .course-col:hover{
-    box-shadow: 0 0 20px 0px rgba(0, 0, 0,0.2);
+    box-shadow: 0 0 20px 0px rgba(0, 0, 0,0.9);
+}
+@media(max-width:700px){
+    .rol{
+       flex-direction: column; 
+    }
 }
