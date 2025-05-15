@@ -25,7 +25,4 @@ mail($to,$email_subject,$email_body,$header);
 
 header("Location: Contact-us.html");
 
-
-
-
 ?>
